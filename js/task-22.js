@@ -1,11 +1,9 @@
-// Дополни функцию getUsersWithEyeColor(users, color) так, чтобы она
-// возвращала массив пользователей у которых цвет глаз(свойство eyeColor)
-// совпадает со значением параметра color.
+// Дополни функцию getActiveUsers(users) так, чтобы она возвращала массив активных
+// пользователей, значение свойства isActive которых true.
 
 // // Пиши код ниже этой строки
-// const getUsersWithEyeColor = (users, color) => {
- 
-
+// const getActiveUsers = (users) => {
+   
 // };
 // // Пиши код выше этой строки
 
@@ -19,7 +17,8 @@
 //     friends: ['Sharron Pace'],
 //     isActive: false,
 //     balance: 2811,
-//     gender: 'male'
+//     gender: 'male',
+//     age: 37
 //   },
 //   {
 //     name: 'Sharlene Bush',
@@ -28,7 +27,8 @@
 //     friends: ['Briana Decker', 'Sharron Pace'],
 //     isActive: true,
 //     balance: 3821,
-//     gender: 'female'
+//     gender: 'female',
+//     age: 34
 //   },
 //   {
 //     name: 'Ross Vazquez',
@@ -37,7 +37,8 @@
 //     friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
 //     isActive: false,
 //     balance: 3793,
-//     gender: 'male'
+//     gender: 'male',
+//     age: 24
 //   },
 //   {
 //     name: 'Elma Head',
@@ -46,7 +47,8 @@
 //     friends: ['Goldie Gentry', 'Aisha Tran'],
 //     isActive: true,
 //     balance: 2278,
-//     gender: 'female'
+//     gender: 'female',
+//     age: 21
 //   },
 //   {
 //     name: 'Carey Barr',
@@ -55,7 +57,8 @@
 //     friends: ['Jordan Sampson', 'Eddie Strong'],
 //     isActive: true,
 //     balance: 3951,
-//     gender: 'male'
+//     gender: 'male',
+//     age: 27
 //   },
 //   {
 //     name: 'Blackburn Dotson',
@@ -64,7 +67,8 @@
 //     friends: ['Jacklyn Lucas', 'Linda Chapman'],
 //     isActive: false,
 //     balance: 1498,
-//     gender: 'male'
+//     gender: 'male',
+//     age: 38
 //   },
 //   {
 //     name: 'Sheree Anthony',
@@ -73,14 +77,13 @@
 //     friends: ['Goldie Gentry', 'Briana Decker'],
 //     isActive: true,
 //     balance: 2764,
-//     gender: 'female'
+//     gender: 'female',
+//     age: 39
 //   }
 // ]
 
 // Пиши код ниже этой строки
-const getUsersWithEyeColor = (users, color) => {
-    
- return users.filter((user) => user.eyeColor === color);
-
+const getActiveUsers = (users) => {
+   return users.filter((user) => user.isActive);
 };
 // Пиши код выше этой строки

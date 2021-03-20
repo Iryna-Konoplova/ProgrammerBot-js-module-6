@@ -1,11 +1,9 @@
-// Дополни функцию getUsersWithEyeColor(users, color) так, чтобы она
-// возвращала массив пользователей у которых цвет глаз(свойство eyeColor)
-// совпадает со значением параметра color.
+// Дополни функцию isAnyUserActive(users) так, чтобы она проверяла наличие
+// активных пользователей(свойство isActive) и возвращала true или false.
 
 // // Пиши код ниже этой строки
-// const getUsersWithEyeColor = (users, color) => {
- 
-
+// const isAnyUserActive = users => {
+   
 // };
 // // Пиши код выше этой строки
 
@@ -78,9 +76,7 @@
 // ]
 
 // Пиши код ниже этой строки
-const getUsersWithEyeColor = (users, color) => {
-    
- return users.filter((user) => user.eyeColor === color);
-
+const isAnyUserActive = users => {
+   return users.some((user) => user.isActive);
 };
 // Пиши код выше этой строки
